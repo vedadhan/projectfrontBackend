@@ -1,0 +1,29 @@
+let items = document.querySelectorAll('ul.collection li.collection-item');
+
+items = Array.from(items);
+items.reverse();
+items.forEach(function(item,index){
+//console.log(items.className);
+item.textContent = `${index}:veda`;
+});
+
+const liodd = document.querySelectorAll('li:nth-child(odd)');
+const lieven = document.querySelectorAll('li:nth-child(even)');
+
+liodd.forEach(function(li,index){
+  li.style.background = 'red';
+  li.textContent = 'Ashish';
+});
+
+lieven.forEach(function(lit,index){
+  lit.style.background = 'yellow';
+  //lit.textContent = 'veda';
+  for(let i = 0; i<lieven.length;i++){
+    lieven[i].textContent = 'DV';
+  }
+});
+
+
+
+
+console.log(items);

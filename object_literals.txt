@@ -1,0 +1,37 @@
+const person_detail = {
+firstName: 'Veda',
+middleName:'Dhanaj',
+age:27,
+email:'veda@gmail.com',
+hobbies:['Phone Number',9876543],
+address:{
+  city:'Patna',
+  Pin:560012
+},
+getdate:function(){
+  return 1998;
+}
+}
+
+let val;
+val = person_detail;
+val = person_detail.firstName;
+val = person_detail.middleName;
+val = person_detail.hobbies;
+val = person_detail.getdate;
+
+const person = [
+  {name:'ashish',age:56},
+  {name:'suresh',age:45},
+  {name:'akhilesh',age:67}
+];
+
+for(let i=0;i<person.length;i++){
+  console.log(person[i].name);
+}
+
+
+var t1 = new Date();
+
+
+console.log();

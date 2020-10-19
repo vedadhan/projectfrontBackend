@@ -1,0 +1,42 @@
+var name = 'veda';
+var age = 22;
+var pin = 800012;
+
+if(age < 18 && pin !== 800012){
+  console.log('Check1');
+}else if(age > 18 && pin !== 800012){
+console.log('check2');
+}else if(age > 18 && pin == 800012 && name !== 'veda'){
+console.log('check3');
+}else if(age > 18 && pin == 800012 && name== 'veda'){
+console.log(`${name} ${age} ${pin}`);
+}else{
+  console.log('check5');
+}
+
+
+let day;
+switch(new Date().getDay()){
+  case 0:
+    day = 'sunday';
+    break;
+  case 1:
+    day = 'Monday';
+    break;
+  case 2:
+    day = 'Tuesday';
+    break;
+  case 3:
+    day = 'Wednesday';
+    break;
+  case 4:
+    day = 'Thrusday';
+    break;
+  case 5:
+    day = 'Friday';
+    break;
+  case 6:
+    day = 'saturday';
+    break;
+  }
+  console.log(`today is ${day}`);

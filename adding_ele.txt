@@ -1,0 +1,38 @@
+//create new element
+//const li = document.createElement('li');
+
+//add class
+//li.className = 'collection-item';
+
+//add id
+//li.id = 'new-item';
+
+//add attribute
+//li.setAttribute('title','new-Item');
+
+//appened text
+//li.appendChild(document.createTextNode('Hello World'));
+
+//create new link
+//const link = document.createElement('a');
+
+//add class
+//link.className = 'delete-item secondary-content';
+
+//add icon
+//link.innerHTML = '<i class="fa fa-remove"></i>';
+
+//appened link to li
+//li.appendChild(link);
+
+//appened li to ul
+//document.querySelector('ul.collection').appendChild(li);
+//console.log(li);
+
+//const newheading = document.createElement('h2');
+//newheading.id = 'task-title';
+//newheading.appendChild(document.createTextNode('New Task'));
+//const oldheading = document.getElementById('task-title');
+//const cardAction = document.querySelector('.card-action');
+//cardAction.replaceChild(newheading,oldheading);
+//console.log(newheading);
